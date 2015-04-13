@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>base part</title>
+<link rel="stylesheet" href="../static/css/base.css">
+</head>
+{% block body %}
+<body>
+{% endblock %}
+<header>
+<h1>WELCOME TO CSE DEPARTMENT</h1>
+<header>
+<img src="../static/img/front.jpg" id="im1">
+<img src="../static/img/student3.jpg" id="im3">
+<img src="../static/img/welcome.jpg" id="im2">
+
+<div class="personaldetail">
+<ul>
+
+<h2>PERSONAL DETAILS</h2>
+{% block  personal %}
+<li>
+<h3>NAME:DEVESH MANJHI</h3></li>
+<li><h3>DEPT:CSE</h3></li>
+<li><h3>ROLL:14074006</h3></li>
+<li><h3>SECTION:BA1</h3></li>
+{% endblock %}
+</ul>
+</div>
+
+
+<div class="academic">
+<ul>
+{% block  academic %}
+<h2>ACADEMIC DETAILS</h2>
+<li><h3>MORNING STAR SCHOOL</h3></li>
+<li><h3>HIGH SCHOOL:10CGPA</h3></li>
+<li><h3>HIGHER SECONDARY:90.2%</h3></li>
+<li><h3>JEE RANK:274(st)</h3></li>
+{% endblock %}
+</ul>
+</div>
+
+<div class="courses">
+<ul id="list">
+<h2>COURSES REGISTERED </h2>
+<li><h3>E.MECH</h3></li>
+<li><h3>ELECTRICAL ENGG.</h3></li>
+<li><h3>ENGG. MATHS</h3></li>
+<li><h3>ITWS-1</h3></li>
+<li><h3>ENGG.DRAWING</h3></li>
+<li><h3>HISTORY</h3></li>
+</ul>
+</div>
+
+<div class="refer">
+<ul id="reference">
+<h2>REFERENCE</h2>
+{% block  referenece %}
+<li><h3>ADDRESS:GWALIOR,MP</h3></li>
+<li><h3>CONTACT:7052379480</h3></li>
+<li><h3>EMAIL:deveshmanjhi7@gmail.com</h3></li>
+{% endblock %}
+</ul>
+<img src="../static/img/student2.jpg" id="im4">
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+.wrap{width:50%;
+margin:auto;
+background-image:url("../img/math2.jpg");
+overflow:hidden;
+border-style:outset;
+border-width:20px
+}
+
+.content{background-image:url("../img/love.jpg");
+
+ float:left;
+ width:50%;}
+ 
+
+
+ aside ul{padding-left:18px;
+}
+.content,aside{height:900px;}
+
+footer {clear:both;}
+
+aside ul a{text-decoration:none;}
+
+ul a:hover{font-size:30px;
+         color:yellow;
+		 text-decoration:underline;}
+.form1{background-image:url("../img/love.jpg");
+		}
+ 
+aside{background-image:url("../img/aside.jpg");
+ float:left;
+ }
+ 
+ form li{list-style:none;
+ margin-top:25px;
+ }
+ 
+ label{display:block;
+ cursor:pointer;
+ color:black;
+ font-family:algerian;
+ padding-bottom:10px;}
+ 
+ form ul{padding-left:0px}
+ 
+ textarea{width:400px;
+ height:150px}
+ 
+ body{background-image: url("../img/math1.jpg");}
+ 
+ 
+ 
+ h1{font-family:algerian;
+ font-size:30px;
+ color:white;}
+ h2{font-family:algerian;
+ color:white;
+ font-size:25px}
+ 
+ p{font-family:algerian;
+ color:black;}
+ 
+ h3{font-family: algerian; color: white;font-size:20px}
+ ul{list-style-type:none}
+ 
+ 
+ #justint{height:50px;
+ padding-top:25px}
+ 
+ h2{padding-top:25px;
+ }
+ img{padding-top:25px;
+ width:285px;
+ margin-right:10px}
+ 
+ 

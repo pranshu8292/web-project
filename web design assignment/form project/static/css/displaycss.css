@@ -1,0 +1,78 @@
+.wrap{width:50%;
+margin:auto;
+background-image:url("../img/ultyu.jpg");
+overflow:hidden;
+text-align:center;
+margin-top:70px;
+border-style:outset;
+border-width:30px
+}
+
+.content{background-image:url("../img/love.jpg");
+
+ float:left;
+ width:50%;}
+ 
+
+
+ aside ul{padding-left:18px;
+}
+.content,aside{height:900px;}
+
+footer {clear:both;}
+
+aside ul a{text-decoration:none;}
+
+ul a:hover{font-size:30px;
+         color:yellow;
+		 text-decoration:underline;}
+.form1{background-image:url("../img/love.jpg");
+		}
+ 
+aside{background-image:url("../img/aside.jpg");
+ float:left;
+ }
+ 
+ form li{list-style:none;
+ margin-top:25px;
+ }
+ 
+ label{display:block;
+ cursor:pointer;
+ color:white;
+ font-family:algerian;
+ padding-bottom:10px;}
+ 
+ form ul{padding-left:0px}
+ 
+ textarea{width:400px;
+ height:150px}
+ 
+ body{background-image: url("../img/back.jpg");}
+ 
+ 
+ 
+ h1{font-family:algerian;
+ font-size:30px;
+ color:white;
+ margin-top:10px;padding-top:10px;padding-bottom:10px;}
+ h2{font-family:algerian;
+ color:white;
+ font-size:25px;
+ margin-top:10px;
+ padding-top:10px}
+ 
+ p{font-family:algerian;
+ color:white;
+ margin-top:10px;padding-top:10px;padding-bottom:10px;}
+ 
+ h3{font-family: algerian; color: white;font-size:16px;
+ margin-top:10px;padding-top:10px;padding-bottom:10px;
+ }
+ ul{list-style-type:none}
+
+ .but{padding-bottom:5px;
+ padding-top:10px;}
+ 
+ .mtext{font-size:25px}
+ 

@@ -1,0 +1,20 @@
+.container_12{background:red;}
+nav li{display:inline;
+margin-left:0px;
+padding-right: 5px;
+}
+
+ nav.grid_4  {
+background:orange;
+float:right;
+}
+aside{background:green;}
+
+.primary{background:#e3e3e3}
+
+
+.main{margin:10px 0px}
+header{background:yellow;}
+
+section{box-sizing:border-box;
+padding:15px}

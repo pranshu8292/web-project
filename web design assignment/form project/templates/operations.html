@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+        <html lang="en">
+<head>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" href="../static/css/style.css">
+	<link rel="stylesheet" href="../static/css/displaycss.css">
+    <title>integration</title>
+</head>
+<body>
+<header>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html" class="icon home"><span>Home</span></a></li>
+        <li class="dropdown">
+          <a href="/index">Home</a>
+       
+        </li>
+        <li class="dropdown">
+          <a href="/gul">Plot &amp; Integrate</a>
+        
+        </li>
+        <li class="active"><a href="/hul">Arithmetic</a></li>
+     
+      </ul>
+    </nav>
+  </header>
+  
+<div class="wrap">
+<h1>ARITHMETIC OPERATIONS</h1>
+<form method="POST">
+		<div>
+	 
+        <label>ENTER LIST OF NUMBERS(CSV)</label>
+		<input type="text" name="var"/>
+	</div>
+	<h3>YOUR INPUT WAS:</h3>
+	<h2>{{cpvar}}<h2>
+    <div>
+	<h3 class="mtext">SUM:		{{sumi}}</h3>
+	
+	<h3 class="mtext">AVERAGE:	{{avg}}</h3>
+	
+	<h3 class="mtext">PRODUCT:	{{prod}}</h3>
+	
+	
+	</div>
+	<div class="but">
+        <button type="submit">DISPLAY</button>
+    </div>
+</form>
+</div>
+</body>
+        </html>
